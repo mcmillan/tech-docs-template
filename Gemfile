@@ -16,4 +16,4 @@ gem 'middleman-sprockets', '~> 4.0.0'
 
 gem 'redcarpet', '~> 3.3.2'
 
-gem 'nokogiri'
+gem 'table_of_contents', path: 'vendor/table_of_contents'

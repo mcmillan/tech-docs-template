@@ -1,3 +1,9 @@
+PATH
+  remote: vendor/table_of_contents
+  specs:
+    table_of_contents (0.1.0)
+      nokogiri
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -135,8 +141,8 @@ DEPENDENCIES
   middleman-compass (>= 4.0.0)
   middleman-livereload
   middleman-sprockets (~> 4.0.0)
-  nokogiri
   redcarpet (~> 3.3.2)
+  table_of_contents!
   tzinfo-data
   wdm (~> 0.1.0)
 
